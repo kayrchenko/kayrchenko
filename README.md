@@ -1,1 +1,1 @@
-# kayrchenko.github.io
+Учебный проект
