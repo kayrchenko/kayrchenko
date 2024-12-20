@@ -500,3 +500,99 @@ Page Styles
 .education-table tr:hover {
     background-color: #f1f1f1;
 }
+
+.theme-switcher {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.theme-switcher:hover {
+    transform: scale(1.1);
+}
+
+/*===========================================
+Dark theme
+============================================*/
+
+body.dark-theme {
+    background: #1e1e1e;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+body.dark-theme .left-content {
+    background: #2d2d2d;
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+body.dark-theme .main-content {
+    background: #2d2d2d;
+    border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+body.dark-theme .logo a {
+    background: #444;
+    color: #fff;
+}
+
+body.dark-theme .nav ul li a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+body.dark-theme .nav ul li a:hover {
+    color: #fff;
+}
+
+body.dark-theme .nav ul li a:after {
+    background: #fff;
+}
+
+body.dark-theme .social-icons ul li a i,
+body.dark-theme .foot-contact ul li {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+body.dark-theme .pro-details div {
+    color: #fff;
+}
+
+body.dark-theme .pg-title {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+body.dark-theme .education-table {
+    background: #2a2a2a;
+    color: rgba(255, 255, 255, 0.87);
+    border-collapse: collapse;
+}
+
+body.dark-theme .education-table th {
+    background: #3a3a3a;
+    color: rgba(255, 255, 255, 0.87);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+body.dark-theme .education-table td {
+    background: #2a2a2a;
+    color: rgba(255, 255, 255, 0.87);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+body.dark-theme .education-table a {
+    color: #76c7c0;
+}
+
+body.dark-theme .education-table a:hover {
+    color: #a7e0da;
+}
+
+body.dark-theme .theme-switcher {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+body.dark-theme .theme-switcher:hover {
+    color: #fff;
+}
